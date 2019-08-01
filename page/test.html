@@ -1,0 +1,1747 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>搜狗旅游</title>
+		<link rel="stylesheet" type="text/css" href="../css/test.css" />
+	</head>
+
+	<body>
+		<div class="big-box">
+			<div class="nav">
+				<div class="nav-top">
+					<img src="../img/go_logo.jpg" class="nav-top-img1" />
+					<div>|</div>
+					<img src="../img/go_slogan.jpg" class="nav-top-img2" />
+				</div>
+				<div class="nav-bottom">
+					<div class="sy">
+						<i></i>
+						<p>首页</p>
+					</div>
+					<div class="plane">
+						<i class="i1"></i>
+						<p class="p1">机票</p>
+					</div>
+					<div class="hotel">
+						<i class="i2"></i>
+						<p class="p2">酒店</p>
+					</div>
+					<div class="dj">
+						<i class="i3"></i>
+						<p class="p3">度假</p>
+					</div>
+					<div class="tejia">
+						<i class="i4"></i>
+						<p class="p4">限时特价</p>
+					</div>
+					<div class="menpiao">
+						<i class="i5"></i>
+						<p class="p5">门票</p>
+					</div>
+					<div class="gongnue">
+						<i class="i6"></i>
+						<p class="p6">攻略</p>
+					</div>
+					<div class="lyrd">
+						<i class="i7"></i>
+						<p class="p7">旅游热点</p>
+						<div class="son"></div>
+					</div>
+				</div>
+			</div>
+
+	        <div class="ban">
+        <div class="posite po1"></div>
+        <div class="posite po2"></div>
+        <div class="travel">
+            <div class="trl">
+                <input class="inp ip1" type="radio" name="radio" id="ji" checked/>
+                <div class="trr tr1">
+                    <div class="tr-top">
+                        <input class="ipt it1" type="radio" name="rad" id="board" checked/>
+                        <label class="lab-f laf" for="board">国内机票</label>
+                        <input class="ipt it2" type="radio" name="rad" id="exp"/>
+                        <label class="lab-f abf" for="exp">特价机票</label>
+                        <i style="font: 12px \5FAE\8F6F\96C5\9ED1 \5B8B\4F53 sans-serif;background-color: red;position: absolute;top: 11px;left: 187px;color: white">热</i>
+                        <div class="tr-bo tb">
+                            <div class="tb-inp">
+                            <input type="radio" name="radi" id="chance" checked/>
+                                <label for="chance" style="color: #0077aa">单程</label>
+                            <input type="radio" name="radi" id="chanced"/>
+                                <label class="return" for="chanced">往返</label>
+                        </div>
+                            <div class="tb-inpt">
+                                <div class="t1" >
+                                    <p style="font-size: 10px">出发城市</p>
+                                    <input class="fo-inp" type="text" value="北京"/>
+                                    <i class="posite1"></i>
+                                </div>
+                                <div class="t2">
+                                    <p style="font-size: 10px">出发日期</p>
+                                    <input class="fo-inp" type="text" value="2019-8-8"/>
+                                    <i class="posite4">周四</i>
+                                    <i class="posite6"></i>
+                                </div>
+                                <div class="t3">
+                                    <p style="font-size: 10px">到达城市</p>
+                                    <input class="fo-inp" type="text" value="上海"/>
+                                    <i class="posite1 posite2"></i>
+                                    <i class="posite1 posite3"></i>
+                                </div>
+                                <div class="t4">
+                                    <p style="font-size: 10px">返程日期</p>
+                                    <input class="fo-inp" type="text" value="2019-10-1"/>
+                                    <i class="posite4 posite5">周二</i>
+                                    <i class="posite6 posite7"></i>
+                                </div>
+                                <a class="sa" href="#">畅快旅行，机票一折！>></a>
+                                <input style="width: 139px; color: white;border: none; height:30px;margin-left: 12px;background-color: #4F8CE4;box-shadow: 0 -1px 3px #3f70b6 inset" type="button" value="搜索"/>
+                            </div>
+                        </div>
+                        <div class="tr-bo tbo"></div>
+                    </div>
+                    <!--<div class="tr-bo"></div>-->
+                    <div class="tr-fo">
+                        <div class="fo-img"></div>
+                        <span class="span">100%航班认证</span>
+                        <div class="fo-img1"></div>
+                        <span class="span">100%出票保证</span>
+                    </div>
+                </div>
+                <label class="lab lab1" for="ji">机票</label>
+                <input class="inp ip2" type="radio" name="radio"id="jiu"/>
+                <div class="trr tr2">
+                    <div class="hospital-top">
+                        <div class="ht">境内酒店</div>
+                    </div>
+                    <div class="hospital-bo">
+                        <div class="hosp-bo">
+                            <i class="icong"></i>
+                            <span class="spa">百万特惠酒店</span>
+                        </div>
+                        <div class="tb-inpt">
+                            <div class="t1" >
+                                <p style="font-size: 10px">入住城市</p>
+                                <input  class="fo-inp" type="text" value="成都"/>
+                                <i class="posite1 hi"></i>
+                            </div>
+                            <div class="t2">
+                                <p style="font-size: 10px">入住日期</p>
+                                <input class="fo-inp" type="text" value="2019-8-8"/>
+                                <i class="posite4 hi2">周四</i>
+                                <i class="posite6 hi2"></i>
+                            </div>
+                            <div class="t3">
+                                <p style="font-size: 10px">关键字</p>
+                                <input class="fo-inp" type="text" placeholder="酒店名/地标/商圈"/>
+                            </div>
+                            <div class="t4">
+                                <p style="font-size: 10px">退房日期</p>
+                                <input class="fo-inp" type="text" value="2019-10-1"/>
+                                <i class="posite4 posite5 hi3">周二</i>
+                                <i class="posite6 posite7 hi3"></i>
+                            </div>
+                            <a class="sa" href="#">订酒店，先领优惠券！>></a>
+                            <input style="width: 139px; color: white;border: none; height:30px;margin-left: 12px;background-color: #4F8CE4;box-shadow: 0 -1px 3px #3f70b6 inset" type="button" value="搜索"/>
+                        </div>
+                    </div>
+                    <div class="hospital-fo">
+                        <div class="fo-img"></div>
+                        <span class="span">100%最低价</span>
+                        <div class="fo-img1"></div>
+                        <span class="span">100%到店有房</span>
+                    </div>
+            </div>
+                <label class="lab lab2" for="jiu">酒店</label>
+                <input class="inp ip3" type="radio" name="radio"id="du"/>
+                <div class="trr tr3">
+                    <div class="fo-top">
+                        <ul>
+                            <li class="fo-li">国内热点:
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">三亚</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">厦门</a>
+                                &nbsp;&nbsp;<a style="color: red" href="">丽江</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">桂林</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">昆明</a>
+                                &nbsp;&nbsp;<a style="color: red" href="">大理</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">杭州</a>
+                            </li>
+                            <li class="fo-li">境外热点:
+                                &nbsp;<a class="fo-li-a" href="">普吉岛</a>
+                                &nbsp;<a class="fo-li-a" href="">首尔</a>
+                                &nbsp;<a style="color: red" class="fo-li-a" href="">东京</a>
+                                &nbsp;<a class="fo-li-a" href="">济州岛</a>
+                                &nbsp;<a class="fo-li-a" href="">西班牙</a>
+                                &nbsp;<a style="color: red" class="fo-li-a" href="">马尔代夫</a>
+                            </li>
+                            <li class="fo-li">精选主题:
+                                &nbsp;&nbsp;<a style="color: red" class="fo-li-a" href="">海岛</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">夕阳红</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">亲子</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">摄影</a>
+                                &nbsp;&nbsp;<a style="color: red" class="fo-li-a" href="">蜜月</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">自驾</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">游轮</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="fo-bo">
+                        <div class="t1" >
+                            <p style="font-size: 10px">出发地</p>
+                            <input class="fo-inp" type="text" value="成都"/>
+                        </div>
+                        <div class="t2">
+                            <p style="font-size: 10px">目的地</p>
+                            <input class="fo-inp" type="text" value="&nbsp;&nbsp;&nbsp;大理苍山洱海"/>
+                            <i class="in"></i>
+                        </div>
+                        <a class="sa" href="#">错峰出行，度假抢订！>></a>
+                        <input style="width: 139px; color: white;border: none; height:30px;margin-left: 12px;background-color: #4F8CE4;box-shadow: 0 -1px 3px #3f70b6 inset" type="button" value="搜索"/>
+                    </div>
+                    <div class="fo-fo">
+                        <div class="fo-img"></div>
+                        <span class="span">100%航班认证</span>
+                        <div class="fo-img1"></div>
+                        <span class="span">100%出票保证</span>
+                    </div>
+                </div>
+                <label class="lab lab3" for="du">度假</label>
+                <input class="inp ip4" type="radio" name="radio"id="te"/>
+                <div class="trr tr4">
+                    <div class="trr-top">
+                        <div class="trr-top-left">
+                            <ul>
+                                <li class="trr-top-li">【厦门】小清新之旅&nbsp;&nbsp;<i style="color: red">￥290</i></li>
+                                <li class="trr-top-li">【云南】特惠抢订&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i style="color: red">￥889</i></li>
+                                <li class="trr-top-li">【张家界】人间仙境&nbsp;&nbsp;<i style="color: red">￥1699</i></li>
+                            </ul>
+                        </div>
+                        <div class="trr-top-right">
+                            <img class="trr-img" src="http://p9.123.sogoucdn.com/imgu/2017/02/20170227194739_899.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="trr-bo">
+                        <div class="t1" >
+                            <p style="font-size: 10px">目的地</p>
+                            <input class="fo-inp trr-inp" type="text" placeholder="丽江特价"/>
+                            <i class="trr-bo-posite"></i>
+                        </div>
+                        <a class="sa fo-sa" href="#">出境游，特价出发！>></a>
+                        <input class="fo-ipt" style="width: 139px; color: white;border: none; height:30px;margin-left: 12px;background-color: #4F8CE4;box-shadow: 0 -1px 3px #3f70b6 inset" type="button" value="搜索"/>
+                    </div>
+                    <div class="trr-fo">
+                        <div class="fo-img"></div>
+                        <span class="span">100%航班认证</span>
+                        <div class="fo-img1"></div>
+                        <span class="span">100%出票保证</span>
+                    </div>
+                </div>
+                <label class="lab lab4" for="te">特价</label>
+                <input class="inp ip5" type="radio" name="radio"id="men"/>
+                <div class="trr tr5">
+                    <div class="kt-top">
+                        <ul>
+                            <li class="fo-li kt">热门景点:
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">故宫</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">欢乐谷</a>
+                                &nbsp;&nbsp;<a style="color: red" href="">九寨沟</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">颐和园</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">黄山</a>
+                                &nbsp;&nbsp;<a style="color: red" href="">迪斯尼</a>
+                            </li>
+                            <li class="fo-li kt">热门城市:
+                                &nbsp;<a class="fo-li-a" href="">北京</a>
+                                &nbsp;<a class="fo-li-a" href="">上海</a>
+                                &nbsp;<a style="color: red" class="fo-li-a" href="">大连</a>
+                                &nbsp;<a class="fo-li-a" href="">广州</a>
+                                &nbsp;<a class="fo-li-a" href="">香港</a>
+                                &nbsp;<a  class="fo-li-a" href="">哈尔滨</a>
+                                &nbsp;<a  class="fo-li-a" href="">东京</a>
+                                &nbsp;<a style="color: red" class="fo-li-a" href="">首尔</a>
+                            </li>
+                            <li class="fo-li kt">精选主题:
+                                &nbsp;&nbsp;<a style="color: red" class="fo-li-a" href="">名胜古迹</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">演出表演</a>
+                                &nbsp;&nbsp;<a class="fo-li-a" href="">城市风光</a>
+                                &nbsp;&nbsp;<a style="color: red" class="fo-li-a" href="">主题乐园</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="kt-bo">
+                        <div class="t1" >
+                            <p style="font-size: 10px">景点门票</p>
+                            <input class="fo-inp trr-inp" type="text" placeholder="密室逃脱之旅"/>
+                            <i class="trr-bo-posite kt-p"></i>
+                        </div>
+                        <a class="sa fo-sa" href="#">出境游，特价出发！>></a>
+                        <input class="fo-ipt" style="width: 139px; color: white;border: none; height:30px;margin-left: 12px;background-color: #4F8CE4;box-shadow: 0 -1px 3px #3f70b6 inset" type="button" value="搜索"/>
+                    </div>
+                    <div class="kt-fo">
+                        <div class="fo-img"></div>
+                        <span class="span">100%航班认证</span>
+                        <div class="fo-img1"></div>
+                        <span class="span">100%出票保证</span>
+                    </div>
+                </div>
+                <label class="lab lab5" for="men">门票</label>
+            </div>
+        </div>
+    </div>
+
+			<div class="big1-box">
+				<div class="main-next">
+					<div class="main-next-son1">
+						<div class="main-next-son1-img"></div>
+						<a href="#">去哪玩</a>
+					</div>
+					<div class="main-next-son2">
+						<div></div>
+					</div>
+				</div>
+
+				<div class="second">
+					<div class="secone-title">
+						<div class="chun">
+							<div class="chun-son">春</div>
+							<div class="san">3月</div>
+                            <div class="san-brother">
+                                <div class="san-brother-left">
+                                    <div class="san-brother-left-top"></div>
+                                    <div class="san-brother-left-son">
+                                        <img src="../img/10.jpg" alt="#"/>
+                                        <div class="san-brother-left-son-1">
+                                            <p class="jd">大理</p>
+
+                                            <p class="jd">
+                                                <span class="gray">特点:</span>
+                                                "春色烂漫"
+                                            </p>
+
+                                            <p class="jd">
+                                                <span class="gray">主题:</span>
+                                                "洱海赏春"
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="san-brother-left-son sbls1">
+                                        <img src="../img/11.jpg" alt="#"/>
+                                        <div class="san-brother-left-son-1">
+                                            <div class="san-brother-left-son-1">
+                                                <p class="jd">凤凰</p>
+
+                                                <p class="jd">
+                                                    <span class="gray">特点:</span>
+                                                    "踏春旅行"
+                                                </p>
+
+                                                <p class="jd">
+                                                    <span class="gray">主题:</span>
+                                                    "古城邂逅"
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="san-brother-right">
+                                    <div class="san-brother-left-son1 sbls1">
+                                        <img src="../img/6.jpg" alt="#"/>
+                                        <div class="san-brother-left-son-1">
+                                            <p class="jd">杭州</p>
+
+                                            <p class="jd">
+                                                <span class="gray">特点:</span>
+                                                "西湖烟雨"
+                                            </p>
+
+                                            <p class="jd">
+                                                <span class="gray">主题:</span>
+                                                "江南春景"
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="san-brother-left-son1 sbls1">
+                                        <img src="../img/7.jpg" alt="#"/>
+                                        <div class="san-brother-left-son-1">
+                                            <p class="jd">宏村</p>
+
+                                            <p class="jd">
+                                                <span class="gray">特点:</span>
+                                                "温馨安静"
+                                            </p>
+
+                                            <p class="jd">
+                                                <span class="gray">主题:</span>
+                                                "画里乡村"
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="san-brother-left-son1 sbls1">
+                                        <img src="../img/8.jpg" alt="#"/>
+                                        <div class="san-brother-left-son-1">
+                                            <p class="jd">丽江</p>
+
+                                            <p class="jd">
+                                                <span class="gray">特点:</span>
+                                                "高远古城"
+                                            </p>
+
+                                            <p class="jd">
+                                                <span class="gray">主题:</span>
+                                                "踏春浪漫"
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="san-brother-left-son1 sbls1">
+                                        <img src="../img/9.jpg" alt="#"/>
+                                        <div class="san-brother-left-son-1">
+                                            <p class="jd">罗平</p>
+
+                                            <p class="jd">
+                                                <span class="gray">特点:</span>
+                                                "油菜花开"
+                                            </p>
+
+                                            <p class="jd">
+                                                <span class="gray">主题:</span>
+                                                "春季赏花"
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="san-brother-left-son1 sbls1">
+                                        <img src="../img/12.jpg" alt="#"/>
+                                        <div class="san-brother-left-son-1">
+                                            <p class="jd">日本</p>
+
+                                            <p class="jd">
+                                                <span class="gray">特点:</span>
+                                                "樱花烂漫"
+                                            </p>
+
+                                            <p class="jd">
+                                                <span class="gray">主题:</span>
+                                                "樱花纷飞"
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="san-brother-left-son1 sbls1">
+                                        <img src="../img/14.jpg" alt="#"/>
+                                        <div class="san-brother-left-son-1">
+                                            <p class="jd">泰国</p>
+
+                                            <p class="jd">
+                                                <span class="gray">特点:</span>
+                                                "热带风情"
+                                            </p>
+
+                                            <p class="jd">
+                                                <span class="gray">主题:</span>
+                                                "暖春浪漫"
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="san-brother-left-son1 sbls1">
+                                        <img src="../img/15.jpg" alt="#"/>
+                                        <div class="san-brother-left-son-1">
+                                            <p class="jd">武汉</p>
+
+                                            <p class="jd">
+                                                <span class="gray">特点:</span>
+                                                "樱花盛开"
+                                            </p>
+
+                                            <p class="jd">
+                                                <span class="gray">主题:</span>
+                                                "初春赏樱"
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="san-brother-left-son1 sbls1">
+                                        <img src="../img/16.png" alt="#"/>
+                                        <div class="san-brother-left-son-1">
+                                            <p class="jd">香港</p>
+
+                                            <p class="jd">
+                                                <span class="gray">特点:</span>
+                                                "繁华都市"
+                                            </p>
+
+                                            <p class="jd">
+                                                <span class="gray">主题:</span>
+                                                "购物狂欢"
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+							<div class="si">4月</div>
+                            <div class="si-brother"></div>
+							<div class="wu">5月</div>
+                            <div class="wu-brother"></div>
+						</div>
+						<div class="xia">
+							<div class="xia-son">夏</div>
+							<div class="liu">6月</div>
+                            <div class="liu-brother"></div>
+							<div class="qi">7月</div>
+                            <div class="qi-brother"></div>
+							<div class="ba">8月</div>
+                            <div class="ba-brother"></div>
+						</div>
+						<div class="qiu">
+							<div class="qiu-son">秋</div>
+							<div class="jiu">9月</div>
+							<div class="shi">10月</div>
+							<div class="shiyi">11月</div>
+						</div>
+						<div class="dong">
+							<div class="dong-son">冬</div>
+							<div class="shier">12月</div>
+							<div class="yi">1月</div>
+							<div class="er">2月</div>
+						</div>
+						<a href="#">更多好玩的目的地
+						<em>></em></a>
+					</div>
+				</div>
+
+                <div class="main-next next1">
+                    <div class="main-next-son1">
+                        <div class="main-next-son1-img1"></div>
+                        <a href="#">限时特价</a>
+                    </div>
+                    <div class="main-next-son2">
+                        <div></div>
+                    </div>
+                </div>
+
+
+                <div class="third">
+                    <div class="third-title">
+                        <div class="third-title-son1">
+                            <span class="bc">全部城市</span>
+                            <span class="go">出发</span>
+                            <i></i>
+                        </div>
+                        <div class="third-title-son1-brother">
+                            <div class="xl">
+                                <span class="bc">全部城市</span>
+                                <span class="go">出发</span>
+                            </div>
+                            <div class="xl xl1">
+                                <span class="bc1">广州/深圳</span>
+                                <span class="go1 g1">出发</span>
+                            </div>
+                            <div class="xl xl1">
+                                <span class="bc1">江浙泸</span>
+                                <span class="go1 g2">出发</span>
+                            </div>
+                            <div class="xl xl1">
+                                <span class="bc1">成都/重庆</span>
+                                <span class="go1 g3">出发</span>
+                            </div>
+                            <div class="xl xl1">
+                                <span class="bc1">长沙/武汉</span>
+                                <span class="go1 g4">出发</span>
+                            </div>
+                        </div>
+                        <div class="third-title-son2">
+                            <a href="#">"更多精选特价"
+                                <em>></em></a>
+                        </div>
+                    </div>
+
+                    <div class="third-cont">
+                        <div class="third-cont-left">
+                            <div class="tcl tclt" title="南美之旅-巴西-阿根廷-智利-秘鲁15日游">
+                                <span>巴西</span>
+                                <img src="../img/17.jpeg" alt="#"/>
+                                <div class="djs">
+                                    <p class="djs-p">距离抢购结束还有</p>
+                                    <p class="djs-p">22天22时22分22秒</p>
+                                </div>
+                                <div class="fs">
+                                    <p>&lt;跟团游&gt;南美之旅-巴西-阿根廷-智利-秘鲁15日游</p>
+                                </div>
+                                <div class="money">
+                                    <span class="r">¥40956</span>
+                                    <span class="z">8.8折</span>
+                                </div>
+                            </div>
+                            <div class="tcl tclb" title="泰国-曼谷-芭提雅机票+当地5晚6日游">
+                                <span>泰国</span>
+                                <img src="../img/19.png" alt="#"/>
+                                <div class="djs">
+                                    <p class="djs-p">距离抢购结束还有</p>
+                                    <p class="djs-p">22天22时22分22秒</p>
+                                </div>
+                                <div class="fs">
+                                    <p>&lt;跟团游&gt;泰国-曼谷-芭提雅机票+当地5晚6日游</p>
+                                </div>
+                                <div class="money">
+                                    <span class="r">¥2063</span>
+                                    <span class="z">8.7折</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third-cont-right">
+                            <div class="third-cont-right-son " title="西班牙+葡萄牙12-13日游">
+                                <span>西班牙</span>
+                                <span>22天22时22分22秒</span>
+                                <img src="../img/20.jpg" alt="#"/>
+                                <div class="third-cont-right-son-b">
+                                    <div class="fs1">
+                                        <p>&lt;跟团游&gt;西班牙+葡萄牙12-13日游</p>
+                                    </div>
+                                    <div class="money1">
+                                        <span class="r1">¥14499</span>
+                                        <span class="z1">8.7折</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="third-cont-right-son " title="美国洛杉矶-黄石公园-东南峡谷-旧金山-拉斯11晚13日">
+                                <span>美国</span>
+                                <span>22天22时22分22秒</span>
+                                <img src="../img/21.jpg" alt="#"/>
+                                <div class="third-cont-right-son-b">
+                                    <div class="fs1">
+                                        <p>&lt;自助游&gt;美国洛杉矶-黄石公园-东南峡谷-旧金山-拉斯11晚13日</p>
+                                    </div>
+                                    <div class="money1">
+                                        <span class="r1">¥10785</span>
+                                        <span class="z1">9.1折</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="third-cont-right-son " title="北欧四国+双峡湾+塔林12或13日游">
+                                <span>挪威</span>
+                                <span>22天22时22分22秒</span>
+                                <img src="../img/22.jpg" alt="#"/>
+                                <div class="third-cont-right-son-b">
+                                    <div class="fs1">
+                                        <p>&lt;跟团游&gt;北欧四国+双峡湾+塔林12或13日游</p>
+                                    </div>
+                                    <div class="money1">
+                                        <span class="r1">¥19188</span>
+                                        <span class="z1">8.9折</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="third-cont-right-son " title="奥地利+德国+捷克12-13日游">
+                                <span>德国</span>
+                                <span>22天22时22分22秒</span>
+                                <img src="../img/23.jpg" alt="#"/>
+                                <div class="third-cont-right-son-b">
+                                    <div class="fs1">
+                                        <p>&lt;跟团游&gt;奥地利+德国+捷克12-13日游</p>
+                                    </div>
+                                    <div class="money1">
+                                        <span class="r1">¥16899</span>
+                                        <span class="z1">8.5折</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="third-cont-right-son tcrs1" title="以色列约旦15日游">
+                                <span>以色列</span>
+                                <span>22天22时22分22秒</span>
+                                <img src="../img/24.jpg" alt="#"/>
+                                <div class="third-cont-right-son-b">
+                                    <div class="fs1">
+                                        <p>&lt;跟团游&gt;以色列约旦15日游</p>
+                                    </div>
+                                    <div class="money1">
+                                        <span class="r1">¥24999</span>
+                                        <span class="z1">8.9折</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="third-cont-right-son tcrs1" title="美国洛杉矶-黄石公园-东南峡谷-旧金山-拉斯10晚12日自由行">
+                                <span>美国</span>
+                                <span>22天22时22分22秒</span>
+                                <img src="../img/25.jpeg" alt="#"/>
+                                <div class="third-cont-right-son-b">
+                                    <div class="fs1">
+                                        <p>&lt;自助游&gt;美国洛杉矶-黄石公园-东南峡谷-旧金山-拉斯10晚12日自由行</p>
+                                    </div>
+                                    <div class="money1">
+                                        <span class="r1">¥10272</span>
+                                        <span class="z1">9.3折</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="third-cont-right-son tcrs1 " title="西班牙-法国9晚11天自由行">
+                                <span>法国</span>
+                                <span>22天22时22分22秒</span>
+                                <img src="../img/26.jpg" alt="#"/>
+                                <div class="third-cont-right-son-b">
+                                    <div class="fs1">
+                                        <p>&lt;自助游&gt;西班牙-法国9晚11天自由行</p>
+                                    </div>
+                                    <div class="money1">
+                                        <span class="r1">¥7523</span>
+                                        <span class="z1">9.9折</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="third-cont-right-son tcrs1" title="俄罗斯-莫斯科+圣彼得堡8-9日游">
+                                <span>俄罗斯</span>
+                                <span>22天22时22分22秒</span>
+                                <img src="../img/27.jpg" alt="#"/>
+                                <div class="third-cont-right-son-b">
+                                    <div class="fs1">
+                                        <p>&lt;跟团游&gt;俄罗斯-莫斯科+圣彼得堡8-9日游</p>
+                                    </div>
+                                    <div class="money1">
+                                        <span class="r1">¥12899</span>
+                                        <span class="z1">8.3折</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="main-next next2">
+                    <div class="main-next-son1">
+                        <div class="main-next-son1-img1"></div>
+                        <a href="#">度假</a>
+                    </div>
+                    <div class="main-next-son2">
+                        <div></div>
+                    </div>
+                </div>
+
+                <div class="fouth">
+                    <div class="fouthtitle">
+                        <div class="fouth-title-left">
+                            <div class="fouth-title">当季推荐</div>
+                            <div class="fouth-title ft1">主题精选</div>
+                            <div class="fouth-title ft1">周边好玩</div>
+                            <div class="tubiao">
+                            <a href="#" class="tb-a1" ></a>
+                            <div class="tubiao-son">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <a href="#" class="tb-a2"></a>
+                        </div>
+                        </div>
+                        <div class="fouth-title-right">
+                            <div class="ftr">精选路线</div>
+                            <div class="ftr ftrs1">欧洲</div>
+                            <div class="ftr ftrs1">泰国</div>
+                            <div class="ftr ftrs1">云南</div>
+                            <div class="ftr ftrs1">四川</div>
+                            <div class="ftr ftrs1">日本</div>
+                            <div class="ftr ftrs1">桂林</div>
+                            <a href="#" class="ftrs2">
+                                "更多精选路线"<em>></em>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="fouth-cont">
+                        <div class="third-cont-left">
+                            <div class="fouth-cont-left-top"></div>
+                            <div class="fouth-cont-left-bottom">
+                                <div class="cell">
+                                    <div class="tit">
+                                        <i></i>
+                                        度假精选
+                                    </div>
+                                    <div class="cot">
+                                        <a href="#">日本</a>
+                                        <a href="#">欧洲</a>
+                                        <a href="#">上海</a>
+                                        <a href="#">苏州</a>
+                                        <a href="#">厦门</a>
+                                        <a href="#">杭州</a>
+                                    </div>
+                                </div>
+                                <div class="cell cel1">
+                                    <div class="tit">
+                                        <i></i>
+                                        国内玩乐
+                                    </div>
+                                    <div class="cot">
+                                        <a href="#">扬州</a>
+                                        <a href="#">南京</a>
+                                        <a href="#">广州</a>
+                                        <a href="#">乌镇</a>
+                                        <a href="#">西安</a>
+                                        <a href="#">北京</a>
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <div class="tit">
+                                        <i></i>
+                                        摄影徒步
+                                    </div>
+                                    <div class="cot">
+                                        <a href="#">丽江</a>
+                                        <a href="#">桂林</a>
+                                        <a href="#">昆明</a>
+                                        <a href="#">大理</a>
+                                        <a href="#">台北</a>
+                                        <a href="#">尼泊尔</a>
+                                    </div>
+                                </div>
+                                <div class="cell cel1">
+                                    <div class="tit">
+                                        <i></i>
+                                        登山悠闲
+                                    </div>
+                                    <div class="cot">
+                                        <a href="#">华山</a>
+                                        <a href="#">庐山</a>
+                                        <a href="#">黄山</a>
+                                        <a href="#">泰山</a>
+                                        <a href="#">普陀山</a>
+                                        <a href="#">武夷山</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fouth-cont-right">
+                            <div class="fouth-cont-right-son" title="海南三亚-西岛-蜈支洲岛双飞6日游国际品牌洲际皇冠假日/空中花园泳池，蜈支洲岛1整天，中西自助早/3大特色餐，2店/0自费，赠骏达车技">
+                                <span>三亚</span>
+                                <img src="../img/30.jpg" alt="#"/>
+                                <div class="fouth-cont-right-son-b">
+                                    <div class="fs2">
+                                        <p>&lt;跟团游&gt;海南三亚-西岛-蜈支洲岛双飞6日游国际品牌洲际皇冠假日/空中花园泳池，蜈支洲岛1整天，中西自助早/3大特色餐，2店/0自费，赠骏达车技
+                                        </p>
+                                    </div>
+                                    <div class="money2">
+                                        <span class="r1">¥3082</span>
+                                        <span class="z2">成都出发</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fouth-cont-right-son" title="山东青岛-威海-烟台-蓬莱-大连双飞6日游口碑0购物，高端住宿，1晚海景1晚养生酒店，骑士主题自助，4大5A景点，专属沙滩篝火烟花派对，畅游水世界">
+                                <span>青岛</span>
+                                <img src="../img/31.jpg" alt="#"/>
+                                <div class="fouth-cont-right-son-b">
+                                    <div class="fs2">
+                                        <p>&lt;跟团游&gt;山东青岛-威海-烟台-蓬莱-大连双飞6日游口碑0购物，高端住宿，1晚海景1晚养生酒店，骑士主题自助，4大5A景点，专属沙滩篝火烟花派对，畅游水世界</p>
+                                    </div>
+                                    <div class="money2">
+                                        <span class="r1">¥3299</span>
+                                        <span class="z2">成都出发</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fouth-cont-right-son" title="华东六市+绍兴+乌镇+杭州双飞5日游三次游船戏江南，玩转四水乡，烂漫风车季，入梦周庄plus宋城千古情酒店">
+                                <span>南京</span>
+                                <img src="../img/32.jpg" alt="#"/>
+                                <div class="fouth-cont-right-son-b">
+                                    <div class="fs2">
+                                        <p>&lt;跟团游&gt;华东六市+绍兴+乌镇+杭州双飞5日游三次游船戏江南，玩转四水乡，烂漫风车季，入梦周庄plus宋城千古情酒店</p>
+                                    </div>
+                                    <div class="money2">
+                                        <span class="r1">¥1572</span>
+                                        <span class="z2">成都出发</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fouth-cont-right-son" title="巴厘岛机票+当地5晚6或7日游途牛自营/臻程mini/私家团/纯玩/双岛出海(含海底漫步)/独栋别墅/海边国五/蜜月享蛋糕/漂浮早餐/漂流/SPA/下午茶/含WiFi">
+                                <span>印度尼西亚</span>
+                                <img src="../img/33.jpg" alt="#"/>
+                                <div class="fouth-cont-right-son-b">
+                                    <div class="fs2">
+                                        <p>&lt;跟团游&gt;巴厘岛机票+当地5晚6或7日游途牛自营/臻程mini/私家团/纯玩/双岛出海(含海底漫步)/独栋别墅/海边国五/蜜月享蛋糕/漂浮早餐/漂流/SPA/下午茶/含WiFi"</p>
+                                    </div>
+                                    <div class="money2">
+                                        <span class="r1">¥7301</span>
+                                        <span class="z2">成都出发</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fouth-cont-right-son fcrs1" title="上海迪士尼乐园-华东4市-乌镇-杭州-鼋头渚赏太湖双飞6日游鼋头渚观太湖，夜宿水乡乌镇，苏州园林，江南深度游告别走马观花">
+                                <span>杭州</span>
+                                <img src="../img/34.jpg" alt="#"/>
+                                <div class="fouth-cont-right-son-b">
+                                    <div class="fs2">
+                                        <p>&lt;跟团游&gt;上海迪士尼乐园-华东4市-乌镇-杭州-鼋头渚赏太湖双飞6日游鼋头渚观太湖，夜宿水乡乌镇，苏州园林，江南深度游告别走马观花</p>
+                                    </div>
+                                    <div class="money2">
+                                        <span class="r1">¥2699</span>
+                                        <span class="z2">成都出发</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fouth-cont-right-son fcrs1" title="昆明-普洱-西双版纳3飞6日游住小熊猫庄园独栋木屋，穿梭热带雨林，参观大象学校，木鼓甩发舞祝酒歌，享丛林晚宴，游热带植物基因库，2人起订">
+                                <span>西双版纳</span>
+                                <img src="../img/31.jpg" alt="#"/>
+                                <div class="fouth-cont-right-son-b">
+                                    <div class="fs2">
+                                        <p>&lt;跟团游&gt;昆明-普洱-西双版纳3飞6日游住小熊猫庄园独栋木屋，穿梭热带雨林，参观大象学校，木鼓甩发舞祝酒歌，享丛林晚宴，游热带植物基因库，2人起订</p>
+                                    </div>
+                                    <div class="money2">
+                                        <span class="r1">¥2331</span>
+                                        <span class="z2">成都出发</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fouth-cont-right-son fcrs1" title="华东六市+扬州+乌镇+西塘双飞6日游0购物0自费，品扬州早茶，话多彩江南，含宋城千古情（含表演）、上海环球金融中心">
+                                <span>扬州</span>
+                                <img src="../img/31.jpg" alt="#"/>
+                                <div class="fouth-cont-right-son-b">
+                                    <div class="fs2">
+                                        <p>&lt;跟团游&gt;华东六市+扬州+乌镇+西塘双飞6日游0购物0自费，品扬州早茶，话多彩江南，含宋城千古情（含表演）、上海环球金融中心</p>
+                                    </div>
+                                    <div class="money2">
+                                        <span class="r1">¥2669</span>
+                                        <span class="z2">成都出发</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fouth-cont-right-son fcrs1" title="张家界-天门山-黄龙洞-玻璃栈道-凤凰古城双飞6日游20人精品小团，直飞张家界/2进森林公园，30元高餐标/百龙天梯VIP往返，沱江泛舟/赏凤凰夜景">
+                                <span>湘西</span>
+                                <img src="../img/31.jpg" alt="#"/>
+                                <div class="fouth-cont-right-son-b">
+                                    <div class="fs2">
+                                        <p>&lt;跟团游&gt;张家界-天门山-黄龙洞-玻璃栈道-凤凰古城双飞6日游20人精品小团，直飞张家界/2进森林公园，30元高餐标/百龙天梯VIP往返，沱江泛舟/赏凤凰夜景</p>
+                                    </div>
+                                    <div class="money2">
+                                        <span class="r1">¥3791</span>
+                                        <span class="z2">成都出发</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="main-next next3">
+                    <div class="main-next-son1">
+                        <div class="main-next-son1-img1"></div>
+                        <a href="#">门票</a>
+                    </div>
+                    <div class="main-next-son2">
+                        <div></div>
+                    </div>
+                </div>
+
+                <div class="fifth">
+                    <div class="fifthtitle">
+                        <div class="fifth-title-left">
+                            <div class="fifth-title">海量主题随心玩</div>
+                            <div class="fifth-tubiao">
+                                <a href="#" class="ftb-a1"></a>
+                                <div class="fifth-tubiao-son">换一换</div>
+
+                            </div>
+                        </div>
+                        <div class="fifth-title-right">
+                            <div class="fftr">精选门票</div>
+                            <div class="fftr fftrs1">北京</div>
+                            <div class="fftr fftrs1">上海</div>
+                            <div class="fftr fftrs1">广州</div>
+                            <div class="fftr fftrs1">西安</div>
+                            <div class="fftr fftrs1">桂林</div>
+                            <div class="fftr fftrs1">曼谷</div>
+                            <a href="#" class="fftrs2">
+                                "更多精选门票"<em>></em>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="fifth-cont">
+                        <div class="fifth-cont-left">
+                            <div class="fifth-cont-left-top"></div>
+                            <div class="fifth-cont-left-bottom">
+                                <div class="fclbs" title="蜡像馆">
+                                    <img src="../img/40.jpg" alt=""/>
+                                </div>
+                                <div class="fclbs" title="登山">
+                                    <img src="../img/41.jpg" alt=""/>
+                                </div>
+                                <div class="fclbs" title="欢乐谷">
+                                    <img src="../img/42.jpg" alt=""/>
+                                </div>
+                                <div class="fclbs" title="美食汇">
+                                    <img src="../img/43.jpg" alt=""/>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="fifth-cont-right">
+                            <div class="ffcrs" title="涠洲岛">
+                                <div class="ffcrss">
+                                    <span>北海</span>
+                                    <img src="../img/44.jpg" alt=""/>
+                                </div>
+                                <div class="ffcrss1">
+                                    <p>涠洲岛</p>
+                                    <p>景点主题:名胜古迹</p>
+                                    <div class="ffcrss1s">
+                                        <span class="r1">¥80</span>
+                                        <span class="z2">4A景区</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ffcrs" title="峨眉山">
+                                <div class="ffcrss">
+                                    <span>乐山</span>
+                                    <img src="../img/46.jpg" alt=""/>
+                                </div>
+                                <div class="ffcrss1">
+                                    <p>峨眉山</p>
+                                    <p>景点主题:文化宗教</p>
+                                    <div class="ffcrss1s">
+                                        <span class="r1">¥185</span>
+                                        <span class="z2">5A景区</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ffcrs" title="大连森林动物园">
+                                <div class="ffcrss">
+                                    <span>北海</span>
+                                    <img src="../img/47.jpg" alt=""/>
+                                </div>
+                                <div class="ffcrss1">
+                                    <p>大连</p>
+                                    <p>景点主题:大连森林动物园</p>
+                                    <div class="ffcrss1s">
+                                        <span class="r1">¥115</span>
+                                        <span class="z2">4A景区</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ffcrs" title="长隆野生动物世界">
+                                <div class="ffcrss">
+                                    <span>广州</span>
+                                    <img src="../img/44.jpg" alt=""/>
+                                </div>
+                                <div class="ffcrss1">
+                                    <p>长隆野生动物世界</p>
+                                    <p>景点主题:游园观光</p>
+                                    <div class="ffcrss1s">
+                                        <span class="r1">¥5</span>
+                                        <span class="z2">5A景区</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ffcrs ffcrs1" title="上海迪士尼乐园">
+                                <div class="ffcrss">
+                                    <span>上海</span>
+                                    <img src="../img/44.jpg" alt=""/>
+                                </div>
+                                <div class="ffcrss1">
+                                    <p>上海迪士尼乐园</p>
+                                    <p>景点主题:观光游玩</p>
+                                    <div class="ffcrss1s">
+                                        <span class="r1">¥375</span>
+                                        <span class="z2">优质景区</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ffcrs ffcrs1" title="秦始皇陵博物馆(兵马俑)">
+                                <div class="ffcrss">
+                                    <span>西安</span>
+                                    <img src="../img/44.jpg" alt=""/>
+                                </div>
+                                <div class="ffcrss1">
+                                    <p>秦始皇陵博物馆(兵马俑)</p>
+                                    <p>景点主题:世界遗产</p>
+                                    <div class="ffcrss1s">
+                                        <span class="r1">¥150</span>
+                                        <span class="z2">5A景区</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ffcrs ffcrs1" title="青岛海昌极地海洋世界">
+                                <div class="ffcrss">
+                                    <span>青岛</span>
+                                    <img src="../img/44.jpg" alt=""/>
+                                </div>
+                                <div class="ffcrss1">
+                                    <p>青岛海昌极地海洋世界</p>
+                                    <p>景点主题:海洋馆</p>
+                                    <div class="ffcrss1s">
+                                        <span class="r1">¥118</span>
+                                        <span class="z2">4A景区</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ffcrs ffcrs1" title="稻城亚丁">
+                                <div class="ffcrss">
+                                    <span>甘孜州</span>
+                                    <img src="../img/44.jpg" alt=""/>
+                                </div>
+                                <div class="ffcrss1">
+                                    <p>稻城亚丁</p>
+                                    <p>景点主题:名胜古迹</p>
+                                    <div class="ffcrss1s">
+                                        <span class="r1">¥280</span>
+                                        <span class="z2">4A景区</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-next next4">
+                    <div class="main-next-son1">
+                        <div class="main-next-son1-img1"></div>
+                        <a href="#">酒店</a>
+                    </div>
+                    <div class="main-next-son2">
+                        <div></div>
+                    </div>
+                </div>
+                    <div class="six-title">
+                        <div class="hotel-item hi1">精品公寓</div>
+                        <div class="hotel-item">古镇客栈</div>
+                        <div class="hotel-item">最美青旅</div>
+                        <div class="hotel-item">情侣浪漫</div>
+                        <a href="#" class="hia1">
+                            更多主题酒店<em>></em>
+                        </a>
+                    </div>
+                    <div class="six-title-next">
+                        <div class="img-box">
+                            <div class="six-title-next-img">
+                                <img src="../img/53.jpg" alt=""/>
+                            </div>
+                            <div class="six-title-next-img">
+                                <img src="../img/54.jpg" alt=""/>
+                            </div>
+                            <div class="six-title-next-img">
+                                <img src="../img/55.jpg" alt=""/>
+                            </div>
+                            <div class="six-title-next-img">
+                                <img src="../img/56.jpg" alt=""/>
+                            </div>
+                            <div class="six-title-next-img">
+                                <img src="../img/57.jpg" alt=""/>
+                            </div>
+                            <div class="six-title-next-img">
+                                <img src="../img/58.jpg" alt=""/>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="six-title sti1">
+                    <div class="hotel-item hi1">北京</div>
+                    <div class="hotel-item">上海</div>
+                    <div class="hotel-item">三亚</div>
+                    <div class="hotel-item">厦门</div>
+                    <div class="hotel-item">广州</div>
+                    <div class="hotel-item">成都</div>
+                    <div class="hotel-item">深圳</div>
+                    <a href="#" class="hia1">
+                        更多入住城市<em>></em>
+                    </a>
+                </div>
+                    <div class="six-title-next1">
+                        <div class="six-cell">
+                            <div class="six-tit">
+                                <i></i>
+                                价格
+                            </div>
+                            <div class="six-cot">
+                                <a href="#">不限</a>
+                                <a href="#">200元以下</a>
+                                <a href="#">200-300元</a>
+                                <a href="#">300-500元</a>
+                                <a href="#">500-800元</a>
+                                <a href="#">800元以上</a>
+                            </div>
+                        </div>
+                        <div class="six-cell six-cel">
+                            <div class="six-tit">
+                                <i></i>
+                                行政区
+                            </div>
+                            <div class="six-cot1">
+                                <a href="#">不限</a>
+                                <a href="#">武侯区</a>
+                                <a href="#">锦江区</a>
+                                <a href="#">青羊区</a>
+                                <a href="#">成华区</a>
+                                <a href="#">金牛区</a>
+                                <a href="#">新都区</a>
+                                <a href="#">高新区</a>
+                                <a href="#">温江区</a>
+                            </div>
+                        </div>
+                        <div class="six-cell six-cel">
+                            <div class="six-tit">
+                                <i></i>
+                                商圈
+                            </div>
+                            <div class="six-cot1">
+                                <a href="#">不限</a>
+                                <a href="#">武侯祠</a>
+                                <a href="#">双流国际</a>
+                                <a href="#">春熙路</a>
+                                <a href="#">天府广场</a>
+                                <a href="#">骡马市</a>
+                                <a href="#">解放路</a>
+                                <a href="#">新会展中</a>
+                                <a href="#">大慈寺</a>
+                            </div>
+                        </div>
+                        <div class="six-cell six-cel">
+                            <div class="six-tit">
+                                <i></i>
+                                品牌
+                            </div>
+                            <div class="six-cot1">
+                                <a href="#">不限</a>
+                                <a href="#">香格里拉</a>
+                                <a href="#">威斯汀</a>
+                                <a href="#">假日酒店</a>
+                                <a href="#">全季</a>
+                                <a href="#">速8</a>
+                                <a href="#">七天</a>
+                                <a href="#">锦江之星</a>
+                                <a href="#">宜必思</a>
+                            </div>
+                        </div>
+                        <div class="six-cell six-cel">
+                            <div class="six-tit">
+                                <i></i>
+                                类型
+                            </div>
+                            <div class="six-cot1">
+                                <a href="#">不限</a>
+                                <a href="#">五星豪华</a>
+                                <a href="#">四星高档</a>
+                                <a href="#">三星</a>
+                                <a href="#">二星</a>
+                                <a href="#">经济型</a>
+                                <a href="#">公寓</a>
+                            </div>
+                        </div>
+                        <div class="six-cell six-cel">
+                            <div class="six-tit">
+                                <i></i>
+                                设施
+                            </div>
+                            <div class="six-cot1">
+                                <a href="#">不限</a>
+                                <a href="#">宽带WiFi</a>
+                                <a href="#">停车场</a>
+                                <a href="#">接机服务</a>
+                                <a href="#">游泳池</a>
+                                <a href="#">健身房</a>
+                                <a href="#">会议室</a>
+                                <a href="#">餐厅</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="six-cont">
+                        <div class="sixcrs" title="成都瑞城名人酒店">
+                            <div class="sixcrss">
+                                <img src="../img/59.jpg" alt=""/>
+                            </div>
+                            <div class="sixcrss1">
+                                <p>成都瑞城名人酒店</p>
+                                <p>商圈:骡马市 新城市广场</p>
+                                <div class="sixcrss1s">
+                                    <span class="r1">¥378</span>
+                                    <span class="z2">四星级</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sixcrs six-c1" title="成都泰合索菲特大饭店">
+                            <div class="sixcrss">
+                                <img src="../img/60.jpg" alt=""/>
+                            </div>
+                            <div class="sixcrss1">
+                                <p>成都泰合索菲特大饭店</p>
+                                <p>商圈:天府广场 盐市口商业区</p>
+                                <div class="sixcrss1s">
+                                    <span class="r1">¥542</span>
+                                    <span class="z2">五星级</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sixcrs six-c1" title="成都世纪城假日酒店-西楼">
+                            <div class="sixcrss">
+                                <img src="../img/61.jpg" alt=""/>
+                            </div>
+                            <div class="sixcrss1">
+                                <p>成都世纪城假日酒店-西楼</p>
+                                <p>商圈:世纪城新会展 环球中心</p>
+                                <div class="sixcrss1s">
+                                    <span class="r1">¥477</span>
+                                    <span class="z2">四星级</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sixcrs six-c1" title="成都圆和圆佛禅客栈">
+                            <div class="sixcrss">
+                                <img src="../img/62.jpg" alt=""/>
+                            </div>
+                            <div class="sixcrss1">
+                                <p>成都圆和圆佛禅客栈</p>
+                                <p>商圈:文殊院 人民北路商业区</p>
+                                <div class="sixcrss1s">
+                                    <span class="r1">¥398</span>
+                                    <span class="z2">四星级</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sixcrs six-c1" title="成都凯宾斯基饭店">
+                            <div class="sixcrss">
+                                <img src="../img/63.jpg" alt=""/>
+                            </div>
+                            <div class="sixcrss1">
+                                <p>成都凯宾斯基饭店</p>
+                                <p>商圈:玉林生活广场 桐梓林商业区</p>
+                                <div class="sixcrss1s">
+                                    <span class="r1">¥578</span>
+                                    <span class="z2">五星级</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sixcrs six-c1" title="成都望江宾馆">
+                            <div class="sixcrss">
+                                <img src="../img/64.jpg" alt=""/>
+                            </div>
+                            <div class="sixcrss1">
+                                <p>成都望江宾馆</p>
+                                <p>商圈:锦江区</p>
+                                <div class="sixcrss1s">
+                                    <span class="r1">¥476</span>
+                                    <span class="z2">五星级</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="main-next next5">
+                    <div class="main-next-son1">
+                        <div class="main-next-son1-img1"></div>
+                        <a href="#">机票</a>
+                    </div>
+                    <div class="main-next-son2">
+                        <div></div>
+                    </div>
+                </div>
+
+                <div class="seven-cont">
+                    <div class="seven-cont-left">
+                        <div class="seven-cont-left-title">
+                            <div class="sclt1">
+                                <span></span>
+                                北京
+                            </div>
+                            <i></i>
+                            <div class="sclt1 kaka">
+                                <span></span>
+                                上海
+                            </div>
+                            <div class="sclt2">国内机票30日低价日历</div>
+                        </div>
+                        <div class="seven-cont-left-bottom">
+                            <div class="sclb11">
+                                <div class="teshu teshu1">日</div>
+                                <div class="teshu">一</div>
+                                <div class="teshu">二</div>
+                                <div class="teshu">三</div>
+                                <div class="teshu">四</div>
+                                <div class="teshu">五</div>
+                                <div class="teshu teshu1">六</div>
+                            </div>
+                            <div class="sclb22">
+                                <div class="sclb22-son1 why"></div>
+                                <div class="sclb22-son1"></div>
+                                <div class="sclb22-son1"></div>
+                                <div class="sclb22-son1"></div>
+                                <div class="sclb22-son riqi">
+                                    <p>搜索</p>
+                                    <p>08-01</p>
+                                </div>
+                                <div class="sclb22-son  riqi">
+                                    <p>搜索</p>
+                                    <p>08-02</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥440</p>
+                                    <p>08-03</p>
+                                </div>
+                                <div class="sclb22-son why">
+                                    <p>¥490</p>
+                                    <p>08-04</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥515</p>
+                                    <p>08-05</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥570</p>
+                                    <p>08-06</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥517</p>
+                                    <p>08-07</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥590</p>
+                                    <p>08-08</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥594</p>
+                                    <p>08-09</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥500</p>
+                                    <p>08-10</p>
+                                </div>
+                                <div class="sclb22-son why">
+                                    <p>¥446</p>
+                                    <p>08-11</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥523</p>
+                                    <p>08-12</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥585</p>
+                                    <p>08-13</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥612</p>
+                                    <p>08-14</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥582</p>
+                                    <p>08-15</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥620</p>
+                                    <p>08-16</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥431</p>
+                                    <p>08-17</p>
+                                </div>
+                                <div class="sclb22-son why  riqi">
+                                    <p>搜素</p>
+                                    <p>08-18</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥570</p>
+                                    <p>08-19</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥502</p>
+                                    <p>08-20</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥619</p>
+                                    <p>08-21</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥502</p>
+                                    <p>08-22</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥502</p>
+                                    <p>08-23</p>
+                                </div>
+                                <div class="sclb22-son ts">
+                                    <p>¥280</p>
+                                    <p>08-24</p>
+                                </div>
+                                <div class="sclb22-son why">
+                                    <p>¥515</p>
+                                    <p>08-25</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥502</p>
+                                    <p>08-26</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥585</p>
+                                    <p>08-27</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥502</p>
+                                    <p>08-28</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥620</p>
+                                    <p>08-29</p>
+                                </div>
+                                <div class="sclb22-son">
+                                    <p>¥620</p>
+                                    <p>08-30</p>
+                                </div>
+                                <div class="sclb22-son1"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seven-cont-right">
+                        <div class="seven-cont-right-title">
+                            <div class="scrt1">北京</div>
+                            <div class="scrt1">上海</div>
+                            <div class="scrt1">广州</div>
+                            <div class="scrt1">杭州</div>
+                            <div class="scrt1">深圳</div>
+                            <div class="seven-cont-right-title-son">
+                                <a href="#">更多精选特价
+                                    <em>></em></a>
+                            </div>
+                        </div>
+                        <div class="seven-cont-right-bottom">
+                            <div>
+                                <p class="scrbp1">北京-沈阳</p>
+                                <div class="sunzi">
+                                    <p>¥270</p>
+                                    <p>2.1折</p>
+                                </div>
+                                <P class="scrbp2">08-07</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-大连</p>
+                                <div class="sunzi">
+                                    <p>¥320</p>
+                                    <p>2.9折</p>
+                                </div>
+                                <P class="scrbp2">08-22</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-烟台</p>
+                                <div class="sunzi">
+                                    <p>¥330</p>
+                                    <p>4.4折</p>
+                                </div>
+                                <P class="scrbp2">08-25</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-长春</p>
+                                <div class="sunzi">
+                                    <p>¥330</p>
+                                    <p>2.0折</p>
+                                </div>
+                                <P class="scrbp2">08-17</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-青岛</p>
+                                <div class="sunzi">
+                                    <p>¥360</p>
+                                    <p>2.4折</p>
+                                </div>
+                                <P class="scrbp2">08-16</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-黄山</p>
+                                <div class="sunzi">
+                                    <p>¥370</p>
+                                    <p>3.0折</p>
+                                </div>
+                                <P class="scrbp2">08-19</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-无锡</p>
+                                <div class="sunzi">
+                                    <p>¥380</p>
+                                    <p>2.0折</p>
+                                </div>
+                                <P class="scrbp2">07-30</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-西宁</p>
+                                <div class="sunzi">
+                                    <p>¥380</p>
+                                    <p>1.7折</p>
+                                </div>
+                                <P class="scrbp2">08-27</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-南京</p>
+                                <div class="sunzi">
+                                    <p>¥400</p>
+                                    <p>1.8折</p>
+                                </div>
+                                <P class="scrbp2">08-19</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-杭州</p>
+                                <div class="sunzi">
+                                    <p>¥410</p>
+                                    <p>1.7折</p>
+                                </div>
+                                <P class="scrbp2">09-01</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-合肥</p>
+                                <div class="sunzi">
+                                    <p>¥420</p>
+                                    <p>2.5折</p>
+                                </div>
+                                <P class="scrbp2">08-08</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-上海</p>
+                                <div class="sunzi">
+                                    <p>¥450</p>
+                                    <p>3.0折</p>
+                                </div>
+                                <P class="scrbp2">08-03</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-宁波</p>
+                                <div class="sunzi">
+                                    <p>¥480</p>
+                                    <p>3.5折</p>
+                                </div>
+                                <P class="scrbp2">08-26</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-南昌</p>
+                                <div class="sunzi">
+                                    <p>¥500</p>
+                                    <p>3.5折</p>
+                                </div>
+                                <P class="scrbp2">08-25</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-西安</p>
+                                <div class="sunzi">
+                                    <p>¥508</p>
+                                    <p>2.5折</p>
+                                </div>
+                                <P class="scrbp2">08-11</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-武汉</p>
+                                <div class="sunzi">
+                                    <p>¥520</p>
+                                    <p>2.3折</p>
+                                </div>
+                                <P class="scrbp2">08-13</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-威海</p>
+                                <div class="sunzi">
+                                    <p>¥561</p>
+                                    <p>6.0折</p>
+                                </div>
+                                <P class="scrbp2">07-31</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-温州</p>
+                                <div class="sunzi">
+                                    <p>¥570</p>
+                                    <p>3.5折</p>
+                                </div>
+                                <P class="scrbp2">08-08</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-佛山</p>
+                                <div class="sunzi">
+                                    <p>¥570</p>
+                                    <p>3.0折</p>
+                                </div>
+                                <P class="scrbp2">07-30</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-哈尔滨</p>
+                                <div class="sunzi">
+                                    <p>¥589</p>
+                                    <p>4.2折</p>
+                                </div>
+                                <P class="scrbp2">08-26</P>
+                            </div>
+
+                            <div>
+                                <p class="scrbp1">北京-厦门</p>
+                                <div class="sunzi">
+                                    <p>¥610</p>
+                                    <p>3.5折</p>
+                                </div>
+                                <P class="scrbp2">09-05</P>
+                            </div>
+
+                            <div>
+                                <p class="scrbp1">北京-长沙</p>
+                                <div class="sunzi">
+                                    <p>¥620</p>
+                                    <p>4.2折</p>
+                                </div>
+                                <P class="scrbp2">08-31</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-福州</p>
+                                <div class="sunzi">
+                                    <p>¥658</p>
+                                    <p>3.6折</p>
+                                </div>
+                                <P class="scrbp2">08-31</P>
+                            </div>
+                            <div>
+                                <p class="scrbp1">北京-呼和浩特</p>
+                                <div class="sunzi">
+                                    <p>¥670</p>
+                                    <p>7.1折</p>
+                                </div>
+                                <P class="scrbp2">08-06</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner">
+                <div class="inner-son1">合作伙伴</div>
+                <div class="inner-img">
+                    <div class="inner-img-son iis" title="途牛">
+                        <img src="../img/65.png" alt=""/>
+                    </div>
+                    <div class="inner-img-son" title="携程">
+                        <img src="../img/66.png" alt=""/>
+                    </div>
+                    <div class="inner-img-son" title="去哪儿">
+                        <img src="../img/67.png" alt=""/>
+                    </div>
+                    <div class="inner-img-son" title="酷讯">
+                        <img src="../img/68.png" alt=""/>
+                    </div>
+                    <div class="inner-img-son" title="TripAdvisor">
+                        <img src="../img/69.png" alt=""/>
+                    </div>
+                    <div class="inner-img-son" title="途牛">
+                        <img src="../img/70.png" alt=""/>
+                    </div>
+                    <div class="inner-img-son" title="铁友">
+                        <img src="../img/71.png" alt=""/>
+                    </div>
+                    <div class="inner-img-son" title="天巡">
+                        <img src="../img/72.png" alt=""/>
+                    </div>
+                </div>
+                <div class="inner-son2">更多合作伙伴</div>
+            </div>
+
+            <div class="foot">
+                <div class="foot-son1">
+                    <div class="foot-son1-div fsd">关于我们</div>
+                    <div class="foot-son1-div">官方微博</div>
+                    <div class="foot-son1-div">意见反馈</div>
+                    <div class="foot-son1-div">免费声明</div>
+                    <div class="foot-son1-div">隐私政策</div>
+                </div>
+                <div class="foot-son2">
+                    <div class="foot-son2-div1">
+                        Copyright © 2019 Sogou.com. All Rights Reserved.
+                    </div>
+                    <div class="foot-son2-div2">
+                        京ICP证050897号
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+
+</html>
